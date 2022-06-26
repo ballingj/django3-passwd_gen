@@ -63,9 +63,9 @@ install pylint
 ```sh
 python manage.py startapp <name_of_app>
 ```
-### Ex: add "pages" app in btre
+### Ex: add "app_name" app 
 ```sh
-python manage.py startapp projects
+python manage.py startapp app_name
 ```
 
 > Note: Below is required step everytime you add an app:
@@ -80,6 +80,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pages.apps.PagesConfig',
+    'generator',
 ]
 ```
