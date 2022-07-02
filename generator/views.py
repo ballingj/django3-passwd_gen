@@ -1,16 +1,20 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+#from django.http import HttpResponse
 import random
 
 # Create your views here.
 
+
 def home(request):
+    '''Home Page to display password options'''
     return render(request, 'generator/home.html')
 
 def about(request):
+    '''About Page to display app info'''
     return render(request, 'generator/about.html')
 
 def password(request):
+    '''Generate a random string for password'''
 
     characters = list('abcdefghijklmnopqrstuvwxyz')
 
