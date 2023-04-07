@@ -83,3 +83,28 @@ INSTALLED_APPS = [
     'generator',
 ]
 ```
+
+### Creating Migrations
+```sh
+python3 manage.py makemigrations
+```
+
+### Migrate the Database
+```sh
+python3 manage.py migrate
+``` 
+
+### Creating a Super User for the Admin Panel
+```sh
+python3 manage.py createsuperuser
+``` 
+
+### Change Any User's Password
+```sh
+python3 manage.py changepassword
+``` 
+
+### Collecting Static Files Into One Folder
+```sh
+python3 manage.py collectstatic
+```
