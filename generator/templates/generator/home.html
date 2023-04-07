@@ -20,7 +20,7 @@
                 <option value="9">9 char long</option>
                 <option value="10">10 char long</option>
                 <option value="11">11 char long</option>
-                <option value="12" selected="selected">12 char long</option>
+                <option value="12" selected>12 char long</option>
                 <option value="13">13 char long</option>
                 <option value="14">14 char long</option>
             </select> Length
@@ -31,9 +31,12 @@
             <br /> 
             <input type="checkbox" name="special"> Special Characters
             <br />
+            <br />
             <input type="submit" value="Generate Password" class="btn btn-primary">
 
         </form>
+        <br />
+        <a href="{% url 'about' %}" class="btn btn-secondary">About</a>
     </div>
 
 </body>
