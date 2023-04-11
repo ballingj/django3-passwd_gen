@@ -101,7 +101,7 @@ python3 manage.py createsuperuser
 
 ### Change Any User's Password
 ```sh
-python3 manage.py changepassword
+python3 manage.py changepassword username
 ``` 
 
 ### Collecting Static Files Into One Folder
